@@ -1,10 +1,16 @@
 {
-  "manifest_version": 3,
-  "name": "Study Pet",
-  "description": "Study Pet Extension",
-  "version": "1.0",
-  "action": {
-    "default_popup": "hello.html",
-    "default_icon": "dog.png"
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0",
+    "description": "A simple Pomodoro Timer",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "dog.png"
+      }
+    },
+    "permissions": ["alarms"],
+    "icons": {
+      "16": "dog.png"
+    }
   }
-}
