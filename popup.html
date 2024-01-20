@@ -3,20 +3,39 @@
 <head>
   <style>
     body {
-      width: 200px;
-      height: 200px;
+      width: 350px;
+      height: 450px;
       padding: 10px;
       text-align: center;
     }
     #timer {
       font-size: 2em;
     }
+    #start {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.3s ease; 
+    }
+
+    /* Hover effect */
+    #start:hover {
+      transform: scale(1.2); /* Increase size on hover */
+    }
+
   </style>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <script src='./assets/bootstrap/js/bootstrap.min.js'></script>
+  <script src="./assets/bootstrap/js/jquery.js"></script>
+
 </head>
-<body>
-  <div id="timer">25:00</div>
-  <button id="start">Start</button>
-  <button id="reset">Reset</button>
-  <script src="popup.js"></script>
-</body>
+  <body>
+    <div>
+      <img src="./assets/bunny.png" alt="pet">
+    </div>
+    <div id="timer">25:00</div>
+    <img id="start" class = "hoverable "src = "assets/play.png" width="30" height="30">
+    <button id="reset">Reset</button>
+    
+    <script src="popup.js"></script>
+  </body>
 </html>

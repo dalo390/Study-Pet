@@ -6,11 +6,11 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "dog.png"
+        "16": "./assets/dog.png"
       }
     },
     "permissions": ["alarms"],
     "icons": {
-      "16": "dog.png"
+      "16": "./assets/dog.png"
     }
   }
