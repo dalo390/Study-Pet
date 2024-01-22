@@ -4,13 +4,10 @@
     "version": "1.0",
     "description": "A simple Pomodoro Timer",
     "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "./assets/dog.png"
-      }
+      "default_popup": "popup.html"
     },
     "permissions": ["alarms"],
     "icons": {
-      "16": "./assets/dog.png"
+      "16": "./assets/images/otter.png"
     }
   }
